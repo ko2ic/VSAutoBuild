@@ -99,8 +99,8 @@ namespace ko2ic.VSAutoBuild
 
         private void DocumentEvents_DocumentSaved(Document document)
         {
-            //document.DTE.ExecuteCommand("Build.RunCodeAnalysisonSelection", "");
-            document.DTE.ExecuteCommand("Build.BuildSelection", "");
+            document.DTE.ExecuteCommand("Build.RunCodeAnalysisonSelection", "");
+            //document.DTE.ExecuteCommand("Build.BuildSelection", "");
         }
     }
 }
